@@ -8,10 +8,8 @@ Food Store es una aplicación web completa para pedidos de comida. Tiene un **ba
 
 ## Repositorio y demostración
 
-- **Repositorio público:** **PENDIENTE DE PUBLICACIÓN** — colocar aquí la URL real luego de subir el proyecto a GitHub. Nombre recomendado: `TPI-Food-Store`.
-- **Video público de demostración (10 a 15 minutos):** **PENDIENTE DE GRABACIÓN** — colocar aquí el enlace público comprobado (Google Drive / YouTube no listado con acceso por enlace).
-
-> La publicación y la grabación son requisitos de entrega. Estos enlaces no se inventaron: deben reemplazarse antes de presentar el trabajo. Consultar `entrega/GUIA_VIDEO_Y_PUBLICACION.md`.
+- **Repositorio público:** https://github.com/snievas98/TPI-Food-Store
+- **Video de demostración:** Pendiente de grabación.
 
 ## Requisitos
 
