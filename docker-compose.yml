@@ -1,0 +1,20 @@
+# Opción de desarrollo con PostgreSQL; no usar estas credenciales en producción.
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: foodstore-db
+    environment:
+      POSTGRES_USER: foodstore
+      POSTGRES_PASSWORD: foodstore
+      POSTGRES_DB: foodstore_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - foodstore_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U foodstore -d foodstore_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+volumes:
+  foodstore_postgres:

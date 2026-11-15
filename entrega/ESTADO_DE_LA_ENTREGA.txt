@@ -1,0 +1,20 @@
+TPI Food Store — Santiago Nievas — Programación IV — 2026
+
+Material preparado:
+- Código fuente del backend y frontend.
+- Seed y configuraciones .env.example.
+- README de la raíz con instalación y ejecución.
+- docker-compose.yml opcional para PostgreSQL.
+- Guía de publicación del repositorio y video de defensa.
+
+No afirmar que la entrega esté 100% terminada hasta:
+[ ] Ejecutar pip install -r requirements.txt y python -m app.db.seed.
+[ ] Iniciar backend, comprobar GET /docs y ejecutar el flujo de prueba.
+[ ] Ejecutar pnpm install && pnpm build && pnpm dev.
+[ ] Publicar repositorio público de GitHub e incluir URL real en README.
+[ ] Grabar el video obligatorio de 10-15 minutos con cámara al inicio.
+[ ] Subir video con acceso público por enlace e incluir URL real en README.
+[ ] Reconstruir ZIP final tras incluir ambas URLs.
+
+Las dependencias no se pudieron instalar en el entorno de generación por falta de conexión externa;
+por ello no se certifica aquí una ejecución extremo a extremo.

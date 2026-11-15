@@ -1,0 +1,5 @@
+import type { Pedido } from '../types'
+import { BadgeEstado, Price } from '../../../shared/ui'
+export function DetallePedido({ pedido }: { pedido: Pedido }) {
+  return <div className="space-y-4"><div className="flex justify-between items-center"><strong>Pedido #{pedido.id}</strong><BadgeEstado estado={pedido.estado}/></div><div className="muted text-sm">{new Date(pedido.created_at).toLocaleString('es-AR')} · {pedido.forma_pago}</div><div><strong>Entrega:</strong> {pedido.direccion_entrega}</div>{pedido.notas && <div><strong>Notas:</strong> {pedido.notas}</div>}<div className="divide-y divide-slate-200">{pedido.items.map((item, index) => <div key={`${item.producto_id}-${index}`} className="summary-line"><span>{item.cantidad} × {item.nombre_producto} <span className="muted text-xs">(<Price value={item.precio_unitario}/> c/u)</span></span><strong><Price value={item.subtotal}/></strong></div>)}</div><div className="summary-total"><span>Total</span><Price value={pedido.total}/></div></div>
+}
