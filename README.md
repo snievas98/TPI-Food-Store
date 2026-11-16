@@ -9,7 +9,7 @@ Food Store es una aplicación web completa para pedidos de comida. Tiene un **ba
 ## Repositorio y demostración
 
 - **Repositorio público:** https://github.com/snievas98/TPI-Food-Store
-- **Video de demostración:** Pendiente de grabación.
+- **Video de demostración:** https://drive.google.com/file/d/1sk1yaMInZRePry0d4IMBubfUc83yNzK_/view?usp=drive_link
 
 ## Requisitos
 
